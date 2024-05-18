@@ -8,6 +8,7 @@ import Fournisseur from '../features/fournsieur'
 import Parameter from '../features/parameter'
 import Intervention from '../features/intervention'
 import UserDetail from '../features/userdetail'
+import Admin from '../features/admin'
 
 const Dashboard = lazy(() => import('../pages/protected/Dashboard'))
 const Welcome = lazy(() => import('../pages/protected/Welcome'))
@@ -32,6 +33,11 @@ const routes = [
     component: Dashboard, // view rendered
   },
 
+
+  {
+    path: '/admin', // the url
+    component: Admin, // view rendered
+  },
   {
     path: '/users', // the url
     component: Leads, // view rendered

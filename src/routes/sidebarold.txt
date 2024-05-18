@@ -38,6 +38,7 @@ const routes = [
     icon: <UsersIcon className={iconClasses} />,
     name: 'Users List',
   },
+
   {
     path: '/app/admin',
     icon: <UsersIcon className={iconClasses} />,
@@ -58,9 +59,10 @@ const routes = [
     icon: <DocumentIcon className={iconClasses} />,
     name: 'Marques',
   },
+
   {
-    path: '/app/parameter',
-    icon: <DocumentIcon className={iconClasses} />,
+    path: '/app/paramaeter',
+    icon: <DocumentIcon className={submenuIconClasses} />,
     name: 'Parameter',
   },
   {
@@ -68,15 +70,19 @@ const routes = [
     icon: <CurrencyDollarIcon className={iconClasses} />,
     name: 'Transactions',
   },
+
+  //userdetail
+
   {
     path: '/app/userdetail',
     icon: <UsersIcon className={iconClasses} />,
-    name: 'User Detail',
+    name: 'userdetail',
   },
+
   {
     path: '/app/intervention',
     icon: <CurrencyDollarIcon className={iconClasses} />,
-    name: 'Intervention',
+    name: 'intervention',
   },
   {
     path: '/app/charts',
@@ -95,7 +101,7 @@ const routes = [
   },
   {
     path: '',
-    icon: <DocumentDuplicateIcon className={iconClasses} />,
+    icon: <DocumentDuplicateIcon className={`${iconClasses} inline`} />,
     name: 'Pages',
     submenu: [
       {
@@ -113,6 +119,8 @@ const routes = [
         icon: <KeyIcon className={submenuIconClasses} />,
         name: 'Forgot Password',
       },
+
+     
       {
         path: '/app/blank',
         icon: <DocumentIcon className={submenuIconClasses} />,
@@ -127,7 +135,7 @@ const routes = [
   },
   {
     path: '',
-    icon: <Cog6ToothIcon className={iconClasses} />,
+    icon: <Cog6ToothIcon className={`${iconClasses} inline`} />,
     name: 'Settings',
     submenu: [
       {
@@ -149,7 +157,7 @@ const routes = [
   },
   {
     path: '',
-    icon: <DocumentTextIcon className={iconClasses} />,
+    icon: <DocumentTextIcon className={`${iconClasses} inline`} />,
     name: 'Documentation',
     submenu: [
       {
