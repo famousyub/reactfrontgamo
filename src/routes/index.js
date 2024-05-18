@@ -116,7 +116,7 @@ const routes = [
 
 
   {
-    path: '/paramaeter',
+    path: '/parameter',
     component: Parameter,
   },
 
