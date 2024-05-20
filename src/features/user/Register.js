@@ -77,12 +77,31 @@ function Register(){
                         <div className="mb-4">
 
                             <InputText defaultValue={registerObj.username} updateType="username" containerStyle="mt-4" labelTitle="username" updateFormValue={updateFormValue}/>
+  
+
+     <br/>
+     <br/>
+     <br/>
+     <br/>
 
                             <InputText defaultValue={registerObj.email} updateType="email" containerStyle="mt-4" labelTitle="email " updateFormValue={updateFormValue}/>
 
+    <br/>
+     <br/>
+     <br/>
+     <br/>
                             <InputText defaultValue={registerObj.password} type="password" updateType="password" containerStyle="mt-4" labelTitle="Mot De Passe" updateFormValue={updateFormValue}/>
 <div className="h-4"></div>
 
+
+
+
+
+
+    <br/>
+     <br/>
+     <br/>
+     <br/>
                             <div className="flex flex-wrap justify-center mb-4">
                                 <label className="mr-4">
                                     <input type="checkbox" value="A" checked={registerObj.role === "A"} onChange={(e) => updateFormValue({updateType: "role", value: e.target.value})} ref={addTitleCheckboxRef}/>

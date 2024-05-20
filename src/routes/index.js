@@ -9,6 +9,7 @@ import Parameter from '../features/parameter'
 import Intervention from '../features/intervention'
 import UserDetail from '../features/userdetail'
 import Admin from '../features/admin'
+import DemandeTr from '../features/demandeTr'
 
 const Dashboard = lazy(() => import('../pages/protected/Dashboard'))
 const Welcome = lazy(() => import('../pages/protected/Welcome'))
@@ -120,6 +121,11 @@ const routes = [
     component: Parameter,
   },
 
+
+   {
+    path:'/demtr' ,
+    component :DemandeTr
+   },
   {
     path: '/userdetail',
     component: UserDetail,

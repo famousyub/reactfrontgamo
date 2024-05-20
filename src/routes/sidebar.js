@@ -68,6 +68,13 @@ const routes = [
     icon: <CurrencyDollarIcon className={iconClasses} />,
     name: 'Transactions',
   },
+
+  {
+    path: '/app/demtr',
+    icon: <CurrencyDollarIcon className={iconClasses} />,
+    name: 'demtr',
+  },
+  //demtr
   {
     path: '/app/userdetail',
     icon: <UsersIcon className={iconClasses} />,
